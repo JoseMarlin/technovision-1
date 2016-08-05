@@ -810,3 +810,19 @@ properly.
 {
    color : white;
 }
+.form-group
+{
+  padding-top: 100px;
+  padding-left : 280px;
+  padding-bottom : 10px;
+}
+button.submit{
+  width : 200px;
+  height : 50px;
+  font-size : 20px;
+}
+input.Message
+{
+  padding-top : 20px;
+  padding-bottom : 100px;
+}
