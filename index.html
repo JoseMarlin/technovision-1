@@ -48,12 +48,12 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <nav id="nav-wrap">
+      <nav id="nav-wrap navbar-default" >
 
          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-         <ul id="nav" class="nav">
+         <ul id="nav" class="nav navbar">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
 	         <li><a class="smoothscroll" href="#resume">Events</a></li>
@@ -634,7 +634,7 @@ All the events are planned to help the students think, act and perform in challe
             <h2> Get In Touch </h2>
          </div>
 
-            <div class="eight columns ">
+            <div class="eight columns form-group">
 
                <!-- form -->
                <form action="" method="post" id="contactForm" name="contactForm">
@@ -642,22 +642,19 @@ All the events are planned to help the students think, act and perform in challe
 
                   <div>
 						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
+						   <input type="text" value="" size="35" id="contactName" name="contactName" class="form-control Message">
                   </div>
 
                   <div>
 						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail" class="form-control Message">
                   </div>
 
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
+                  
 
                   <div>
                      <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="8" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
